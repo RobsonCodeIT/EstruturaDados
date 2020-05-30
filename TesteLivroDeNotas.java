@@ -10,5 +10,7 @@ public class TesteLivroDeNotas {
     String nomeDoCurso = JOptionPane.showInputDialog(null, "Digite o Nome do Curso");
     livroDeNotas.setNomeDoCurso(nomeDoCurso);
     System.out.println(livroDeNotas.getNomeDoCurso());
+
+    LivroDeNotas livroDeNotas2 = new LivroDeNotas("ED");
   }
 }

@@ -1,11 +1,19 @@
 //frequentam o curso
 
-public class LivroDeNotas {
+public class  LivroDeNotas {
 
     private String nomeDoCurso;
 
-    //vamos utilizaro construtor padrão
-    //presente na classe Object, e zera tudo
+    //definir um construtor com parametro nomeDoCurso
+    public LivroDeNotas(String nomeDoCurso) {
+
+      this.nomeDoCurso = nomeDoCurso;
+    }
+
+    //necesario redefinir o construtor padrao
+    public LivroDeNotas() {
+      
+    }
 
     //Métodos de acesso
     //consultar o valor de uma variavel de instância ou atributo
