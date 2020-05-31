@@ -12,5 +12,6 @@ public class TesteLivroDeNotas {
     System.out.println(livroDeNotas.getNomeDoCurso());
 
     LivroDeNotas livroDeNotas2 = new LivroDeNotas("ED");
+    System.out.println(livroDeNotas2.getNomeDoCurso());
   }
 }
