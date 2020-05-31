@@ -1,4 +1,4 @@
-inport  javax.swing.JOptionPane;
+import  javax.swing.JOptionPane;
 
 public class Calculadora {
 
@@ -8,7 +8,7 @@ public class Calculadora {
 
     String  auxiliar;
 
-    auxiliar = JOptionPane.showInputDialog("Digite a Opcao: \n+ - soma\n- - subtracao"); //sempre devolve uma String
+    auxiliar = JOptionPane.showInputDialog("Digite a Opcao: \n+ - soma\n- - subtracao\ns - sair"); //sempre devolve uma String
     char op = auxiliar.charAt(0);//devolve o caractere na posicao 0
     return op;
   }
@@ -24,6 +24,6 @@ public class Calculadora {
 
 
       }
-    } while (opcao != 0);
+    } while (opcao != 's' && opcao != 'S');
   }
 }
