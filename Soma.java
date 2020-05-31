@@ -8,7 +8,9 @@ public class Soma {
 
       soma = soma + Integer.parseInt(args[i]);
 
-      System.out.println(soma);
+      //System.out.println(soma);
     }
+
+    System.out.println(soma);
   }
 }
