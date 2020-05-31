@@ -8,7 +8,7 @@ public class Calculadora {
 
     String  auxiliar;
 
-    auxiliar = JOptionPane.showInputDialog("Digite a Opcao: \n+ - soma\n- - subtracao\ns - sair"); //sempre devolve uma String
+    auxiliar = JOptionPane.showInputDialog("Digite a Opcao: \n+ - soma\n- - subtracao\n* - multiplicacao\n/ - divisao\ns - sair"); //sempre devolve uma String
     char op = auxiliar.charAt(0);//devolve o caractere na posicao 0
     return op;
   }
